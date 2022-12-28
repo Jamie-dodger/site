@@ -1,6 +1,6 @@
 .homeHeader{
     width:100%;
-    background-image:url("images/wood2.jpg");
+    background-image:url("../images/wood2.jpg");
 	  background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -175,6 +175,7 @@ animation_container{
 }
 .club{
 	margin-top:0px;
+  color: #1a162d;
 }
 .bodyText {
 	display: inline-block;
