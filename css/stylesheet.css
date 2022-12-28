@@ -124,7 +124,6 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 nav{
-	float: left;
 	display:inline-block;
 }
 animation_container{
@@ -180,7 +179,6 @@ animation_container{
 .bodyText {
 	display: inline-block;
 	width: 68%;
-	float:right;
 }
 .item {
 	opacity:0%;
