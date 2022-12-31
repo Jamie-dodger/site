@@ -1,4 +1,4 @@
-.homeHeader{
+header{
     width:100%;
     background-image:url("../images/wood2.jpg");
 	  background-position: center;
@@ -195,4 +195,13 @@ border: 2px solid #f1b304;
 
 .figcaption{
   text-align: right;
+}
+
+.sColumn{
+  width:30%;
+}
+table, th, td{
+  border: white 3px solid;
+  border-collapse: collapse;
+  column-span: Monday;
 }
