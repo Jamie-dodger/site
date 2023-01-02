@@ -171,6 +171,35 @@ function handleComplete(evt,comp) {
 	We are a Professional volleyball team based in North Yorkshire, open to all abilities and age groups.
 	We compete in the national, yorkshire and premier leagues and like to get as many of our players involved as posssible. 
 	</p>
-	</section>
+</section>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="vidButtons"> 
+	<video id="video1" width="30%">
+		<source src="videos/serveVid.mp4" type="video/mp4">
+	</video>
+	<br><br>
+	<button class="vidButton1" onclick="playPause()">Play/Pause</button> 
+	<button class="vidButton2" onclick="fullScreen()">Enlarge</button>
+</div> 
+
+<script>
+	var myVideo = document.getElementById("video1"); 
+
+	function playPause() { 
+	if (myVideo.paused) 
+		myVideo.play(); 
+	else 
+		myVideo.pause(); 
+	} 
+
+	function fullScreen() { 
+    if (myVideo.width != 1080)
+		myVideo.width = 1080;
+	else
+		myVideo.width = 384;
+	} 
+
+</script>
+
 </body>
 </html>

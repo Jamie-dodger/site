@@ -4,7 +4,7 @@ header{
 	  background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-	  height:742px;
+	  height:650px;
 	
 }
 li{
@@ -179,6 +179,7 @@ animation_container{
 .bodyText {
 	display: inline-block;
 	width: 68%;
+  font-size: 100;
 }
 .item {
 	opacity:0%;
@@ -197,11 +198,32 @@ border: 2px solid #f1b304;
   text-align: right;
 }
 
-.sColumn{
-  width:30%;
-}
 table, th, td{
   border: white 3px solid;
   border-collapse: collapse;
   column-span: Monday;
+}
+
+.ttColumn2{
+  color:#1a162d;
+  width:80%;
+  text-align:center;
+	font-size: 75px;
+	font-family: "Times New Roman", Times, serif;
+	padding: 0 10px;
+	height:206px;
+}
+
+.vidButtons{
+  text-align:center;
+  float: right;
+  color: #1a162d;
+}
+
+.vidButton1{
+  background-color: #f1b304;
+}
+
+.vidButton2{
+  background-color: #f1b304;
 }
