@@ -137,18 +137,10 @@ animation_container{
 }
 .column1 {
   float: left;
-  width: 40%;
+  width: 80%;
   padding: 0 10px;
 }
-.column2 {
-	color: #1a162d;
-	font-size: 175px;
-	width:40%;
-	float:right;
-	font-family: "Times New Roman", Times, serif;
-	padding: 0 10px;
-	height:206px;
-}
+
 .container {
   display: inline-block;
   cursor: pointer;
@@ -208,7 +200,7 @@ table, th, td{
   color:#1a162d;
   width:80%;
   text-align:center;
-	font-size: 75px;
+	font-size: 125px;
 	font-family: "Times New Roman", Times, serif;
 	padding: 0 10px;
 	height:206px;
@@ -227,3 +219,4 @@ table, th, td{
 .vidButton2{
   background-color: #f1b304;
 }
+
