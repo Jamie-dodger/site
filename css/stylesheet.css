@@ -126,7 +126,7 @@ img {vertical-align: middle;}
 nav{
 	display:inline-block;
 }
-animation_container{
+.animation_container{
 	display:inline-block;
 	width: 40%;
 }
@@ -196,14 +196,13 @@ table, th, td{
   column-span: Monday;
 }
 
-.ttColumn2{
+.titleColumn{
   color:#1a162d;
   width:80%;
   text-align:center;
-	font-size: 125px;
+	font-size: 75px;
 	font-family: "Times New Roman", Times, serif;
 	padding: 0 10px;
-	height:206px;
 }
 
 .vidButtons{

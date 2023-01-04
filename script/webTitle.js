@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"webTitle_atlas_1", frames: [[0,0,1479,396],[0,398,1479,396],[0,796,940,436]]}
+		{name:"webTitle_atlas_1", frames: [[0,438,1452,248],[0,688,1369,248],[0,0,940,436]]}
 ];
 
 
@@ -27,14 +27,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_2 = function() {
+(lib.CachedBmp_4 = function() {
 	this.initialize(ss["webTitle_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1 = function() {
+(lib.CachedBmp_3 = function() {
 	this.initialize(ss["webTitle_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
@@ -85,28 +85,28 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.instance = new lib.vball("synched",0);
-	this.instance.setTransform(-33,173.85,1,1,-90,0,0,37.1,13.8);
+	this.instance.setTransform(-21,151.25,0.87,0.8516,-90,0,0,37,13.8);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({scaleX:4.2375,scaleY:5.2708,rotation:0,x:102.2,y:118.75},59).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({regY:13.9,scaleX:2.6988,scaleY:3.6106,rotation:0,x:60.25,y:74.05},59).wait(1));
 
 	// Layer_1
-	this.instance_1 = new lib.CachedBmp_1();
-	this.instance_1.setTransform(0,0,0.5,0.5);
+	this.instance_1 = new lib.CachedBmp_3();
+	this.instance_1.setTransform(6.9,-0.1,0.5,0.5);
 
-	this.instance_2 = new lib.CachedBmp_2();
-	this.instance_2.setTransform(0,0,0.5,0.5);
+	this.instance_2 = new lib.CachedBmp_4();
+	this.instance_2.setTransform(-0.1,-0.1,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1}]}).to({state:[{t:this.instance_2}]},59).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(303.5,100,436,145.9);
+p.nominalBounds = new cjs.Rectangle(297.6,59.9,428.29999999999995,125.69999999999999);
 // library properties:
 lib.properties = {
 	id: '8F2CEC783480C64786ADDBE1742DFBE5',
-	width: 750,
-	height: 200,
+	width: 700,
+	height: 120,
 	fps: 30,
 	color: "#FFFFFF",
 	opacity: 0.00,
