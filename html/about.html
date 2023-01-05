@@ -36,6 +36,25 @@
 	</div>
 </header>
 <body>
-
+	<br>
+<div class="vidButtons"> 
+	<video id="video1" width="100%">
+		<source src="../videos/serveVid.mp4" type="video/mp4">
+	</video>
+	<br><br>
+	<button class="vidButton1" onclick="playPause()">Play/Pause</button> 
+</div>
+	
+	
+	<script>
+		var myVideo = document.getElementById("video1"); 
+	
+		function playPause() { 
+			if (myVideo.paused) 
+				myVideo.play();
+			else 
+				myVideo.pause(); 
+			} 
+	</script>
 </body>
 </html>

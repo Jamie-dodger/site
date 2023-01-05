@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="../css/stylesheet.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
 </head>
 <header>
@@ -35,18 +36,26 @@
 		Contact Us
 	</div>
 
-	<h3>Are club leaders are regularly active on various social media platforms, feel free to contact us with any inquiries.</h3>
 </header>
 <body>
+	<br>
+	<h2 style="text-align: center;">Our club leaders are regularly active on various social media platforms, feel free to contact us with any inquiries.</h2>
+	<br>
 	<div class="row">
 		<div class="profileColumn">
 		  <div class="card">
 			<img src="../images/coach1.jpg" alt="Don" style="width:100%">
-			<div class="container">
-			  <h2>Don Levat</h2>
-			  <p class="title">Chairman</p>
-			  <p>Hi all, I'm Don the Chairman and lead coach of the club. I have lots of experience having played in the Volleyball England National League for over 10 years and counting. </p>
-			  <p><button class="button">Contact</button></p>
+			<div class="container2">
+				<h2>Don Levat</h2>
+				<p class="title">Chairman</p>
+				<p>Hi all, I'm Don the Chairman	of the club. I have lots of experience having played in the Volleyball England National League for over 10 years and counting. </p>
+				<p><div class="dropdown">
+				<button onclick="dropFunction()" class="dropbtn">Contact</button>
+				<div id="myDropdown" class="dropdown-content">
+					<a>Email: Donlevat@gmail.com</a>
+					<a>Phone: 07865984352</a>
+  					</div>
+				</div></p>
 			</div>
 		  </div>
 		</div>
@@ -54,11 +63,18 @@
 		<div class="profileColumn">
 		  <div class="card">
 			<img src="../images/coach2.jpg" alt="Eric" style="width:100%">
-			<div class="container">
+			<div class="container2">
 			  <h2>Eric Haw</h2>
-			  <p class="title">Art Director</p>
-			  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-			  <p><button class="button">Contact</button></p>
+			  <p class="title">Mens Head Coach</p>
+			  <p>Hi guys, I am the Head Coach for the mens team here at the volleyball club.</p>
+			  <p><div class="dropdown1">
+				<button onclick="dropFunction1()" class="dropbtn1">Dropdown</button>
+				<div id="myDropdown1" class="dropdown-content1">
+				  <a href="#home">Home</a>
+				  <a href="#about">About</a>
+				  <a href="#contact">Contact</a>
+				</div>
+			  </div></p>
 			</div>
 		  </div>
 		</div>
@@ -66,15 +82,77 @@
 		<div class="profileColumn">
 		  <div class="card">
 			<img src="../images/coach3.jpg" alt="Anna" style="width:100%">
-			<div class="container">
+			<div class="container2">
 			  <h2>Anna Gray</h2>
-			  <p class="title">Designer</p>
-			  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-			  <p>example@example.com</p>
-			  <p><button class="button">Contact</button></p>
+			  <p class="title">Womens Head Coach</p>
+			  <p>Hi, I'm Anne, and I am in charge of coaching the womens team.</p>
+			  <p><div class="dropdown2">
+				<button onclick="dropFunction2()" class="dropbtn2">Dropdown</button>
+				<div id="myDropdown2" class="dropdown-content2">
+				  <a href="#home">Home</a>
+				  <a href="#about">About</a>
+				  <a href="#contact">Contact</a>
+				</div>
+			  </div>
+				</div></p>
 			</div>
 		  </div>
 		</div>
 	  </div>
+
+<script>
+	function dropFunction() {
+  		document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+	window.onclick = function(event) {
+  	if (!event.target.matches('.dropbtn')) {
+   		var dropdowns = document.getElementsByClassName("dropdown-content");
+    	var i;
+    	for (i = 0; i < dropdowns.length; i++) {
+      		var openDropdown = dropdowns[i];
+    if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+    	}
+    }
+  }
+}
+</script>
+<script>
+	function dropFunction1() {
+	  document.getElementById("myDropdown1").classList.toggle("show1");
+	}
+	
+	window.onclick = function(event) {
+	  if (!event.target.matches('.dropbtn1')) {
+		var dropdowns = document.getElementsByClassName("dropdown-content1");
+		var i;
+		for (i = 0; i < dropdowns.length; i++) {
+		  var openDropdown = dropdowns[i];
+		  if (openDropdown.classList.contains('show1')) {
+			openDropdown.classList.remove('show1');
+		  }
+		}
+	  }
+	}
+	</script>
+<script>
+	function dropFunction2() {
+	  document.getElementById("myDropdown2").classList.toggle("show2");
+	}
+	
+	window.onclick = function(event) {
+	  if (!event.target.matches('.dropbtn2')) {
+		var dropdowns = document.getElementsByClassName("dropdown-content2");
+		var i;
+		for (i = 0; i < dropdowns.length; i++) {
+		  var openDropdown = dropdowns[i];
+		  if (openDropdown.classList.contains('show2')) {
+			openDropdown.classList.remove('show2');
+		  }
+		}
+	  }
+	}
+	</script>
 </body>
 </html>
