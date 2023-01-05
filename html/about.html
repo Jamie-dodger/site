@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" href="../css/stylesheet.css">
+	<link rel="stylesheet" href="../css/stylesheet.css">
 <head>
 </head>
 <header>
-    <br><br>
+	<br><br>
 	<div class="column">
 		<nav>
 			<ul>
 				<li>
 				<br>
 				<div class="container" onclick="myFunction(this)">
-				<div class="bar1"></div>
-				<div class="bar2"></div>
-				<div class="bar3"></div>
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
 				</div>
 
-				<script>
-				function myFunction(x) {
-				  x.classList.toggle("change");
-				}
-				</script><br>
+					<script>
+						function myFunction(x) {
+							x.classList.toggle("change");
+						}
+					</script><br>
 				</li>
 				<li><a href="../index.html">Home</a></li>
 				<li><a href="../html/timetable.html">Timetable and Calender</a></li>
 				<li><a href="../html/shop.html">Club Shop</a></li>
-                <li><a href="../html/contact.html">Contact Us</a></li>
+        <li><a href="../html/contact.html">Contact Us</a></li>
 				<li><a class="active" href="About.html">About Us</a></li>
 			</ul>
 		</nav>
@@ -34,27 +34,61 @@
 	<div class="titleColumn">
 		About Us
 	</div>
+
 </header>
+
 <body>
 	<br>
-<div class="vidButtons"> 
-	<video id="video1" width="100%">
-		<source src="../videos/serveVid.mp4" type="video/mp4">
-	</video>
-	<br><br>
-	<button class="vidButton1" onclick="playPause()">Play/Pause</button> 
-</div>
-	
+	<h2 style="text-align: center;">We are open to all levels of experience and hope to offer something for everyone. Our training consists of drills and games so our players
+		have the most experience possible in order to have the most confidence possible heading into games and tournaments.</h2>
+	<br>
+	<div class="bodycolumn1">
+		<br>
+		<h3>Our volleyball club is based in harrotown and competes on a national scale, frequently playing away games all over the UK.</h3>
+		<br><br><br><br>
+		<div class="vidButtons"> 
+			<video id="video1" width="100%" autoplay loop muted>
+				<source src="../videos/serveVid.mp4" type="video/mp4">
+			</video>
+			<br><br>
+			<button class="vidButton1" onclick="playPause1()">Play/Pause</button> 
+		</div>
+		<br><br><br><br>
+		<h3>We have regular mixed friendlies and other social events within the club and with other local clubs! </h3>
+	</div>
 	
 	<script>
-		var myVideo = document.getElementById("video1"); 
-	
-		function playPause() { 
-			if (myVideo.paused) 
-				myVideo.play();
+		var myVideo1 = document.getElementById("video1"); 
+		function playPause1() { 
+			if (myVideo1.paused) 
+				myVideo1.play();
 			else 
-				myVideo.pause(); 
+				myVideo1.pause(); 
 			} 
-	</script>
+  </script>
+
+	<div class="bodyColumn2">
+		<img src="../images/clubsMap.jpg" alt="map of volleyball clubs in England" class="map">		
+		<br><br><br><br><br><br><br><br><br><br><br><br>
+		<h3>Our club is proud to include mens, womens and juniors teams who all compete in the Yorkshire area!</h3>
+		<br><br><br><br><br><br><br><br>
+		<div class="vidButtons"> 
+			<video id="video2" width="120%" autoplay loop muted>
+				<source src="../videos/rallyVid.mp4" type="video/mp4">
+			</video>
+			<br><br>
+			<button class="vidButton2" onclick="playPause2()">Play/Pause</button>
+		</div>
+		<script>
+			var myVideo2 = document.getElementById("video2"); 
+			function playPause2() { 
+				if (myVideo2.paused) 
+					myVideo2.play();
+				else 
+					myVideo2.pause(); 
+				} 
+		</script>
+	</div>
+
 </body>
 </html>

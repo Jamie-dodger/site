@@ -4,10 +4,10 @@ header{
 	  background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-	  height:650px;
+	  height:600px;
     color: #1a162d;
-	
 }
+
 li{
     list-style-type: none;
     margin: 0;
@@ -64,10 +64,6 @@ ul{
 	
 }
 * {box-sizing: border-box}
-
-body {
-  font-family: Times New Roman, serif; margin:0
-}
 
 .mySlides {display: none}
 img {vertical-align: middle;}
@@ -207,23 +203,31 @@ table, th, td{
   text-align:center;
 	font-size: 95px;
 	font-family: "Times New Roman", Times, serif;
-	padding: 0 10px;
 }
 
 .vidButtons{
   text-align:center;
   color: #1a162d;
-  float: right;
-  width: 30%;
-  margin-right: 5px;
+  float: middle;
+  width: 60%;
+  margin-left: 20%;
 }
 
 .vidButton1{
   background-color: #f1b304;
 }
 
+.vidButton2{
+  background-color: #f1b304;
+}
+
+.myVideo1{
+  width:100%;
+}
+
 html {
   box-sizing: border-box;
+  font-family: Times New Roman, serif; margin:0;
 }
 
 *, *:before, *:after {
@@ -403,6 +407,20 @@ html {
 
 .show2 {display: block;}
 
-.vidbuttons{
-  margin: 167;
+.map{
+  float: right;
+  width: 40%;
+}
+
+.bodycolumn1{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.bodyColumn2{
+  width: 40%;
+  float: right;
+  margin-right: 10%;
+  text-align: center;
 }
