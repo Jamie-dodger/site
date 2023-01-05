@@ -135,6 +135,7 @@ nav{
   float: left;
   width: 20%;
   padding: 0 10px;
+  border: #f1b304 solid 2px;
 }
 .column1 {
   float: left;
@@ -184,7 +185,6 @@ figure{
 figure img{
 width: 224px;
 height: 220px;
-border: 2px solid #f1b304;
 }
 
 .figcaption{
