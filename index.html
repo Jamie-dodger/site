@@ -51,7 +51,6 @@ function handleComplete(evt,comp) {
 </script>
 </div>
 </head>
-<body onload="init();" style="margin:0px;">
 <header>
 	<br>
 	<br>
@@ -81,7 +80,6 @@ function handleComplete(evt,comp) {
 		</nav>
 	</div>
 
-</body>
 
 	<div class="column1">
 		<div id="animation_container" style="background-color:rgba(255, 255, 255, 0.00); width:750px; height:200px">
@@ -96,39 +94,48 @@ function handleComplete(evt,comp) {
 	
 </header>
 
-<div class="slideshow-container">
+<body onload="init();" style="margin:0px;">
 
-	<br>
+	
+	<h2 class="bodyText" style="display: block;">
+		We are a Professional volleyball team based in North Yorkshire, open to all abilities and age groups.
+		We compete in the national, yorkshire and premier leagues and like to get as many of our players involved as possible. 
+	</h2>
 
-	<div class="mySlides fade">
-	  <img src="images/players1.jpg" style="height:300px">
-	</div>
-	
-	<div class="mySlides fade">
-	  <img src="images/players2.jpg" style="height:300px">
-	</div>
-	
-	<div class="mySlides fade">
-	  <img src="images/players3.jpg" style="height:300px">
-	</div>
-	
-	<div class="mySlides fade">
-	  <img src="images/players4.jpg" style="height:300px">
-	</div>
-	
-	<div class="mySlides fade">
-	  <img src="images/players5.jpg" style="height:300px">
-	</div>
-	
-	<div class="mySlides fade">
-	  <img src="images/players6.jpg" style="height:300px">
-	</div>
-	
-	<a class="prev" onclick="plusSlides(-1)">❮</a>
-	<a class="next" onclick="plusSlides(1)">❯</a>
-	
-	</div>
-	<br>
+	<div class="slideshow-container" style="text-align: center;">
+		<br>
+		<h1>News and Events</h1>
+		<br>
+		<div class="mySlides fade">
+		<img src="images/beach.jpg" style="height:300px">
+		<div class="text">Beach trip season is nearly upon us!</div>
+		</div>
+		
+		<div class="mySlides fade">
+		<img src="images/grass.jpg" style="height:300px">
+		</div>
+		
+		<div class="mySlides fade">
+		<img src="images/players3.jpg" style="height:300px">
+		</div>
+		
+		<div class="mySlides fade">
+		<img src="images/players4.jpg" style="height:300px">
+		</div>
+		
+		<div class="mySlides fade">
+		<img src="images/players5.jpg" style="height:300px">
+		</div>
+		
+		<div class="mySlides fade">
+		<img src="images/players6.jpg" style="height:300px">
+		</div>
+		
+		<a class="prev" onclick="plusSlides(-1)">❮</a>
+		<a class="next" onclick="plusSlides(1)">❯</a>
+		
+		</div>
+		<br>
 	
 	<div style="text-align:center">
 	  <span class="dot" onclick="currentSlide(1)"></span> 
@@ -164,13 +171,6 @@ function handleComplete(evt,comp) {
 	  dots[slideIndex-1].className += " active";
 	}
 	</script>
-	
-<section class="bodyText">
-	<p>
-	We are a Professional volleyball team based in North Yorkshire, open to all abilities and age groups.
-	We compete in the national, yorkshire and premier leagues and like to get as many of our players involved as posssible. 
-	</p>
-</section>
 
 </body>
 </html>

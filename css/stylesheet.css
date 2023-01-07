@@ -71,19 +71,20 @@ img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
   margin: auto;
-  width: 30%;
-  float: left;
-  margin-left:2%;
+  width: 50%;
+  margin-left:25%;
+  position: relative;
+  
 }
 
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
-  position: center;
+  position: absolute;
   top: 50%;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
+  margin-top: 5px;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -92,9 +93,17 @@ img {vertical-align: middle;}
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
 .next {
   right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
   border-radius: 3px 0 0 3px;
 }
 
@@ -105,8 +114,11 @@ img {vertical-align: middle;}
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  width: 100%;
+  width: 30%;
   text-align: center;
+  background-color: rgba(0,0,0,0.8);
+  margin-left: 35%;
+
 }
 
 /* Fading animation */
@@ -135,10 +147,9 @@ nav{
   float: left;
   width: 20%;
   padding: 0 10px;
-  border: #f1b304 solid 2px;
 }
 .column1 {
-  float: left;
+  float: right;
   width: 80%;
   padding: 0 10px;
 }
@@ -172,9 +183,11 @@ nav{
 }
 .bodyText {
 	display: inline-block;
-	width: 68%;
+	width: 100%;
   font-size: 100;
+  text-align: center
 }
+
 .item {
 	opacity:0%;
 }
@@ -194,7 +207,11 @@ height: 220px;
 table, th, td{
   border: white 3px solid;
   border-collapse: collapse;
-  column-span: Monday;
+  text-align: center;
+}
+
+table{
+  width: 100%;
 }
 
 .titleColumn{
