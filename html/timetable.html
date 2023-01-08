@@ -7,7 +7,7 @@
     <div class="column">
         <ul>
             <br>
-            <div class="container" onclick="myFunction(this)">
+            <div class="container" onclick="myFunction(this); playAudio('audio/menuButton.mp3')">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
@@ -18,6 +18,13 @@
                 x.classList.toggle("change");
             }
             </script>
+
+            <script>
+                function playAudio(url) {
+                new Audio(url).play();
+                }
+                </script>
+
             <br>
 
             <li class="toChange"><a href="../index.html">Home</a></li>
