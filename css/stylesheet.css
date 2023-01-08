@@ -13,9 +13,9 @@ li{
     margin: 0;
     padding: 0;
     overflow: visible;
-    background-color: transparent;
     width:125px;
-    opacity: 0;
+    display: none;
+    background-color: #f1b304;
 }
 body{
     background-color:#1a162d;
@@ -170,8 +170,7 @@ nav{
 }
 
 .change .toChange {
-  opacity: 100;
-  background-color: #f1b304;
+  display: block;
 }
 
 .change .bar1 {
